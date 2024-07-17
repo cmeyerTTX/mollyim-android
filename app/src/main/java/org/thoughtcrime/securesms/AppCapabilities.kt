@@ -18,6 +18,7 @@ object AppCapabilities {
       giftBadges = false,
       pni = true,
       paymentActivation = false,
+      deleteSync = true // just for debugging, DO NOT USE
     )
   }
 }
