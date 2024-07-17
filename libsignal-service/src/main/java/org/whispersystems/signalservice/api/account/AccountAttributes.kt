@@ -60,6 +60,7 @@ class AccountAttributes(
     @JsonProperty("stories") val stories: Boolean,
     @JsonProperty("giftBadges") val giftBadges: Boolean,
     @JsonProperty("pni") val pni: Boolean,
-    @JsonProperty("paymentActivation") val paymentActivation: Boolean
+    @JsonProperty("paymentActivation") val paymentActivation: Boolean,
+    @JsonProperty("deleteSync") val deleteSync: Boolean,
   )
 }
